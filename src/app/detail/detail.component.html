@@ -1,0 +1,23 @@
+
+<div class="container">
+  <app-navbar></app-navbar>
+  <form [formGroup]="formDetail" >
+    <div class="mb-3 mt-3">
+      <label for="id" class="form-label">id:</label>
+      <input type="text" formControlName="id" class="form-control" id="id" placeholder="Enter id" readonly >
+    </div>
+    <div class="mb-3 mt-3">
+      <label for="title" class="form-label">title:</label>
+      <input type="text" formControlName="title" class="form-control" id="title" placeholder="Enter title" readonly>
+    </div>
+    <div class="mb-3 mt-3">
+      <label for="price" class="form-label">price:</label>
+      <input type="text" formControlName="price" class="form-control" id="price" placeholder="Enter price" readonly>
+    </div>
+    <div class="mb-3 mt-3">
+      <label for="description" class="form-label">description:</label>
+      <input type="text" formControlName="description" class="form-control" id="description" placeholder="Enter description" readonly>
+    </div>
+
+  </form>
+</div>
